@@ -112,6 +112,7 @@ li {
   align-items: center;
   justify-content: center;
   height: 86vh;
+  background: no-repeat bottom/100% url("../img/header/header.jpg");;
 }
 
 .logo {
@@ -248,7 +249,7 @@ li {
 
 /*--------------------------------
  Feature
----------------------------------*/
+
 .feature-item {
   display: flex;
   flex-wrap: wrap;
@@ -266,6 +267,8 @@ li {
 .feature-body p:not(:last-child) {
   margin-bottom: 20px;
 }
+
+---------------------------------*/
 
 /*--------------------------------
  About
@@ -337,55 +340,31 @@ li {
   margin-bottom: 3px;
 }
 
-.rate {
-  position: relative;
-  font-size: 16px;
-  display: inline-block;
-  width: 100%;
-  height: 20px;
-  letter-spacing: .3em;
+/*--------------------------------
+ Tool
+---------------------------------*/
+.tool-section .inner {
+  max-width: 1000px;
 }
 
-.rate:before,
-.rate:after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  line-height: 20px;
-  display: inline-block;
-  height: 20px;
-  content: "★★★★★";
+.tool-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: -50px;
 }
 
-.rate:before {
-  color: #ddd;
+.tool-item {
+  display: flex;
+  flex: 0 0 21%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 24px;
+  border-radius: 15px;
+  border: 1px solid #333;
+  line-height: 2rem;
 }
 
-.rate:after {
-  overflow: hidden;
-  white-space: nowrap;
-  color: #f181b4;
-}
-
-.rate1:after {
-  width: 20px;
-}
-
-.rate2:after {
-  width: 40px;
-}
-
-.rate3:after {
-  width: 60px;
-}
-
-.rate4:after {
-  width: 80px;
-}
-
-.rate5:after {
-  width: 100px;
-}
 
 /*--------------------------------
  Contact
