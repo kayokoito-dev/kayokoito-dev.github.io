@@ -337,7 +337,8 @@ li {
 }
 
 .skill-title {
-  margin-bottom: 3px;
+  font-size: 1.2em;
+  margin-bottom: 6px;
 }
 
 /*--------------------------------
@@ -350,7 +351,7 @@ li {
 .tool-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: -50px;
 }
 
@@ -359,10 +360,10 @@ li {
   flex: 0 0 21%;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 24px;
+  margin: 0 8px 24px 0;
   border-radius: 15px;
   border: 1px solid #333;
-  line-height: 2rem;
+  padding: .5em;
 }
 
 
@@ -453,7 +454,7 @@ li {
 
   /* レイアウト */
   .wrapper {
-    padding-top: 82px;
+    padding-top: 56px;
   }
 
   .section {
@@ -485,7 +486,7 @@ li {
 
   .gnav-item {
     font-size: 13px;
-    padding: 2px 15px;
+    padding: 2px 13px;
   }
 
   .gnav-link {
@@ -561,37 +562,10 @@ li {
     margin-right: 15px;
   }
 
-  .rate {
-    font-size: 15px;
-    height: 15px;
+ /* Tool */
+  .tool-item {
+    font-size:12px;
   }
-
-  .rate:before,
-  .rate:after {
-    line-height: 15px;
-    height: 15px;
-  }
-
-  .rate1:after {
-    width: 15px;
-  }
-
-  .rate2:after {
-    width: 35px;
-  }
-
-  .rate3:after {
-    width: 55px;
-  }
-
-  .rate4:after {
-    width: 75px;
-  }
-
-  .rate5:after {
-    width: 95px;
-  }
-
   /* Contact */
   .contact-item {
     width: 40px;
